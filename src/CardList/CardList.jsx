@@ -18,6 +18,6 @@ export default function CardList({product}){
     )
 }
 
-CardList.PropTypes = {
+CardList.propTypes = {
     product : PropTypes.arrayOf(PropTypes.object).isRequired
 }
